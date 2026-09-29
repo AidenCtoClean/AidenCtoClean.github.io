@@ -27,19 +27,19 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     //toggleGrid();
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
 createPlatform(400, 300, 200, 20);
 createPlatform(800, 300, 250, 30, "purple" );
 createPlatform(50, 300, 95, 20, "gray");
-
+createPlatform(350, 400, 95, 20, "purple");
 
     // TODO 3 - Create Collectables
 createCollectable("steve", 950, 200);
 createCollectable("kennedi", 400, 250, 0, 0.5);
-
+createCollectable("diamond", 375, 375, 0, 0);
 
 
     
